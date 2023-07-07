@@ -3,6 +3,7 @@
 ### *그 외 편리한 기능 정리*
 - VScode에서 Preview 띄우기 > shitf + command + v
 - Header로 이동 > shitf + command + o
+- 공백나타내기 > br 태그 사용 
 ---
 ## underline : ___  3번
 ___
@@ -12,6 +13,7 @@ ___
 #### Header4
 ##### Header5
 ###### Header6
+
 
 default
 ___
@@ -56,7 +58,7 @@ ___
 [1]: https://github.com
 [참조 링크]: https://naver.com "네이버로 이동합니다!"
 ___
-##  이미지
+##  Image(이미지)
 ![대체 텍스트 입력](http://www.gstatic.com/webp/gallery/5.jpg "링크 설명(title) 작성")
 
 ![Kayak][logo]
@@ -64,7 +66,12 @@ ___
 [logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking."
 
 - **Local 사진 복사해서 붙여넣으면 바로 사진 띄어짐**
+- **사진도 깃허브에 같이 올려야 함**
 ![Alt text](<Screenshot 2023-07-05 at 11.25.29 PM-1.png>)
+
+- 이미지 크기 조정하기 
+    - HTML 태그를 사용하여 크기를 조정할 수 있다.
+    - Ex) img src="IMG_3249.PNG" alt="전체그림" width="300">
 ___
 ## 코드 강조 
  - `강조할 단어를` 입력, 주의할 점은 영문일때만 ₩ 가 `로 표시된다.
@@ -124,11 +131,13 @@ But let's throw in a tag.
     - ex) ```java
 ___
 ## Table
-| id | name |
-|:---:|:---|
-|ab|ds|
-|cd|sh|
-|eh|ho|
+| ep_no | salary | hire_date|
+|:---:|:---:|:---:|
+|1|100|~|
+|1|200|~|
+|2|300|~|
+|3|400|~|
+|4|100|~|
 
 - `| id | name |` 를 통해 attribute설정
 - 그 후 `|:---:|:---|` 를 사용해 튜플과 구분, :를 통해 정렬 가능
