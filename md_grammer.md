@@ -71,7 +71,10 @@ ___
 
 - 이미지 크기 조정하기 
     - HTML 태그를 사용하여 크기를 조정할 수 있다.
-    - Ex) img src="IMG_3249.PNG" alt="전체그림" width="300">
+```html
+<img src="IMG_3249.PNG" alt="전체그림" width="300">
+<img src="work_png/1.png" alt="전체그림" width="500">
+```     
 ___
 ## 코드 강조 
  - `강조할 단어를` 입력, 주의할 점은 영문일때만 ₩ 가 `로 표시된다.
