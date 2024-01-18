@@ -4,8 +4,6 @@
 - VScode에서 Preview 띄우기 > shitf + command + v
 - Header로 이동 > shitf + command + o
 - 공백나타내기 > br 태그 사용 
----
-## underline : ___  3번
 ___
 # Header1 
 ## Header2
@@ -17,12 +15,13 @@ ___
 
 default
 ___
-## Emphasis 
-*이텔릭체* _언더바_
+## Emphasis
 
-**bold** __언더바__
-
+**두껍게**   
+_이텔릭체_  
+**_이텔릭 + 두껍게_**  
 ~~취소선~~
+<u>밑줄</u>
 
 ## 화살표 표시하기
 - 왼쪽 화살표 : &larr;
@@ -44,7 +43,8 @@ ___
     + 더하기
 ___
 ## link
-[google](https://google.com)
+[google](https://google.com)  
+<a href="https://google.com" target="_blank">GOOGLE</a>
 
 [naver](https://naver.com "링크 설명(title) 작성")
 
@@ -70,6 +70,10 @@ ___
 ![Kayak][logo]
 
 [logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking."
+
+- 이미지 링크
+
+[![image](image)](https://www.naver.com)
 
 - **Local 사진 복사해서 붙여넣으면 바로 사진 띄어짐**
 - **사진도 깃허브에 같이 올려야 함**
@@ -140,8 +144,11 @@ But let's throw in a tag.
     - ex) ```java
 ___
 ## Table
-| ep_no | salary | hire_date|
-|:---:|:---:|:---:|
+
+position 속성
+
+기본값 | 가운데 정렬 | 오른쪽 정렬
+--|:--:|--:
 |1|100|~|
 |1|200|~|
 |2|300|~|
@@ -165,6 +172,15 @@ ___
 >>> 중중첩된 인용문 3
 ___
 
+# 원시 HTML(Raw HTML)
+
+동해물과 <u>백두산이 마르고</u> 닳도록<br/>
+하느님이 보우하사 우리나라 만세
+
+# 수평선(Horizontal Rule)
+---
+***
+________________
 
 
 
